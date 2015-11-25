@@ -11,7 +11,8 @@ Inputi funkcije su: lekcija (unijeti naslov lekcije - "glina", "eruptivne", "pij
                     repl (omogućiti ponavljanje istog pitanja; po defaultu je uključeno [T])  
                     pos (pogledati zasebno pitanje; po defaultu isključeno [F])  
                     
-Primjer: 
+Primjer:  
+
           pitanja("eruptivne", 10, bodovanje = T, shuffle = T, repl = F)
           - postaviti će se 10 random pitanja iz poglavlja eruptivne stijene bez mogućnosti ponavljanja pitanja. Bodovanje je uključeno.
           
